@@ -1,0 +1,10 @@
+.logoSide {
+    width: 5em;
+    padding-left: 0.05em;
+    background-color: white;
+}
+
+header {
+    background-color: #00aeff;
+    height: 4em;
+}
