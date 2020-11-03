@@ -14,120 +14,66 @@ header {
     display: flex;
 }
 
+.menu {
+    margin-left: 35em;
+}
+
 .fab {
     color: #fff;
     background-color: #4FCE5D;
-    margin: 0 0 10px 10px;
+    margin: 0.5em 0 0 0;
     font-size: 1.5em;
 }
 
 .menu-list{
-    display: flex;
-    display: inline-block;
-    align-content: space-between;
-}
-
-
-.menu-list{
-    list-style-type: none;
+    list-style-type: none; 
 }
 
 .dropdown-toggle {
     width: 15em;
-    height: 3em;
-    
+    height: 2.5em;
+    border-radius: 0 5em 5em 0;
+    background-color: #084482;
+    position: relative;
+    bottom: 0.8em;
 }
 
-.menuItems {
-    display: inline-block;
+.contact-img {
+    border-radius: 5em;
+    position: absolute;
+    bottom: -0.09em;
+    left: -1em;
+    width: 2.5em;
 }
 
-.inline {
-    display: inline;
-}
-
-/* .contact-text-main {
+.contact-text-main {
     font-size: 10px;
     line-height: 12px;
     color: #00aeff;
     display: block;
 } 
 
-.contact-img {
-    border-radius: 5em;
-    height: 3em;
-    position: absolute;
-    top: -0.1px;
-    left: -17px;
-}
-
 .contact-num {
     font-size: 1em;
     color: #fff;
     line-height: 1.5em;
-}*/
-
-.flag {
-    width: 1.5em;
-    height: 1em;
-    /* display: inline-block; */
-}
-
-.accountContact {
-    width: 1.5em;
-    height: 1.5em;
-}
-
-
-
-/* header {
-    background-color: #00aeff;
-    height: 4em;  
-    display: block;
-   
-}
-
-.fab {
-    color: green;
-    margin-top: 10px;
-    vertical-align: middle;
-    color: #777;
-    display: inline-block;
-}
-
-.menu-list{
-    list-style-type: none;
-}
-
-.dropdown-toggle {
-    
-    width: 15em;
-    height: 3em;
-    padding: 0 12px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    border-top-right-radius: 5em;
-    border-bottom-right-radius: 5em;
-    margin-top: 1em;
-    border-left: 1px solid;
-    
-}
-
-.contact-img {
-    border-radius: 5em;
-    height: 3em;
-}
-.flag {
-    width: 1.5em;
-    height: 1em;
 }
 
 .menuItems {
-    display: inline-flex;
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.inline {
+    display: inline;
+}
+
+.flag {
+    width: 1em;
+    height: 0.8em;
 }
 
 .accountContact {
-    width: 1.5em;
-    height: 1.5em;
-} */
+    width: 1em;
+    height: 0.9em;
+}
