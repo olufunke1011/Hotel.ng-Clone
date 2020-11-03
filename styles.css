@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 .logoSide {
@@ -9,25 +10,21 @@
     padding-left: 0.05em;
 }
 header {
-    background-color: #00aeff;
-    height: 4em;  
+    background-color: pink;
     display: flex;
-    /* display: inline-block; */
 }
 
 .fab {
     color: #fff;
     background-color: #4FCE5D;
     margin: 0 0 10px 10px;
-    /* position: relative;
-    left: 25em;
-    bottom: 0.5em; */
     font-size: 1.5em;
 }
 
 .menu-list{
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    display: inline-block;
+    align-content: space-between;
 }
 
 
@@ -38,16 +35,15 @@ header {
 .dropdown-toggle {
     width: 15em;
     height: 3em;
-    /* padding: 0 12px;
-    align-items: center;
-    position: absolute;
-    top: 1em;
-    /* right: 1em; 
-    bottom: 2em;
-    left: 50em;
-    border-top-right-radius: 5em;
-    border-bottom-right-radius: 5em;
-    background-color: #084482; */
+    
+}
+
+.menuItems {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
 }
 
 /* .contact-text-main {
@@ -74,7 +70,7 @@ header {
 .flag {
     width: 1.5em;
     height: 1em;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .accountContact {
