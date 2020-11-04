@@ -15,11 +15,11 @@ h1 {
 }
 
 input {
-    border: 1px solid black;
+    border: 1px solid grey;
     color: rgb(65, 62, 62);
     font-size: 0.8em;
     /* padding: 0.1em; */
-    width: 18em;
+    width: 25em;
 }
 
 .logoSide {
@@ -116,25 +116,37 @@ header {
 .btn {
     color: #fff;
     background-color: #00aeff; 
-    padding: 1em; 
+    padding: 10em; 
 }
 
 .hotel-form-Container {
-    background: whitesmoke;
+    background: white;
     border: 2px solid rgba(0, 0, 0, 0.1);
-    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.111);
-    width: 70%;
-    margin: 0 auto 0 auto;
+    box-shadow: 0 10px 2s0px 0px rgba(0, 0, 0, 0.111);
+    width: 75%;
     text-align: center;
     position: sticky;
-    top: -350em;
+    margin-top: -2em;
+    top: -0.2em;
     left: 10em;
-    
-    
 }
 
 .hotel-form {
-    padding: 3em;
+    padding: 2em;
+}
+
+.hotel-Search {
+    padding: 1em;
+    border-radius: .5em;
+}
+
+.city {
+    padding: 0.9em;
+    width: 35em;
+}
+
+.destination {
+    text-align: center;
 }
 
     
