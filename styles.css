@@ -5,6 +5,23 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'lato', 'poppins';
+}
+
+h1 {
+  font-size: 2em;
+  color: #fff
+}
+
+input {
+    border: 1px solid black;
+    color: rgb(65, 62, 62);
+    font-size: 0.8em;
+    /* padding: 0.1em; */
+    width: 18em;
+}
+
 .logoSide {
     width: 5em;
     padding-left: 0.05em;
@@ -16,6 +33,7 @@ header {
 
 .menu {
     margin-left: 35em;
+   
 }
 
 .fab {
@@ -77,3 +95,46 @@ header {
     width: 1em;
     height: 0.9em;
 }
+
+
+
+.homePage {
+    background: url(Assets/Images/homeimg.jpg);
+    background-size: cover;  
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6em;
+}
+
+.search-Text {
+    color: #fff;
+}
+
+.btn {
+    color: #fff;
+    background-color: #00aeff; 
+    padding: 1em; 
+}
+
+.hotel-form-Container {
+    background: whitesmoke;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.111);
+    width: 70%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    position: sticky;
+    top: -350em;
+    left: 10em;
+    
+    
+}
+
+.hotel-form {
+    padding: 3em;
+}
+
+    
