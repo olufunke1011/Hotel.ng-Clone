@@ -142,6 +142,7 @@ header {
     margin-top: -2em;
     top: -0.2em;
     left: 10em;
+    z-index: 50;
 }
 
 .hotel-form {
@@ -246,4 +247,98 @@ header {
     font-size: 0.5em;
 }
 
-    
+.cityImageContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+} 
+
+.cityLocation {
+  display: block;
+  position: relative;
+  top: 6.5em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #fff;
+}
+
+ .cityName {
+    border-radius: 0.3em;
+}
+/* booking display-none section */
+.booking {
+  text-align: center;
+  position: relative;
+  bottom: 4.5em;
+  font-size: 1.2em;
+  padding: 1em 0;
+  background-color: rgba(0, 0, 0, 0.333);
+  /* display: none; */
+}
+
+.bookingContainer button {
+  padding: 1em;
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.333);
+  /* background-color: #00aeff; */
+  border-radius: 0.2em;
+  font-weight: 600;
+  color: #fff;
+  /* display: none; */
+}
+
+.booking:hover {
+  display: none;
+    /* display: all; */
+    /* background-color: #00aeff */  
+}
+
+.bookingContainer button:hover{
+  display: none;
+  background-color: #00aeff
+}
+
+/* STATES STYLING */
+.statesContainer {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 0.5em;
+  margin: 2em;
+}
+
+.states h4 {
+  color: #00aeff;
+}
+
+.states p {
+  color: rgba(0, 0, 0, 0.555);
+  font-size: 0.9em;
+}
+
+.emailbtn {
+    color: #fff;
+    background-color: #00aeff; 
+    padding: 0.8em 3.5em;
+    border-radius: 0.2em;
+}
+
+.emailInputContainer {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.emailSection {
+    padding: 0.5em 0 5em 0;
+}
+
+.dealsAndOffer {
+    background-color: #fafafa;
+}
+
+.getApp {
+    background-color: #EFF8FB;
+}
+
+.featuredOrg {
+    width: 10%;
+}
