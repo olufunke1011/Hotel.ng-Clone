@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-}
-
 html {
     font-family: 'lato', 'poppins';
 }
@@ -20,14 +13,10 @@ h2 {
     color: rgb(65, 62, 62);
 }
 
-/* p {
-    font-size: 1.2em;
-} */
 input {
     border: 1px solid grey;
     color: rgb(65, 62, 62);
     font-size: 0.8em;
-    /* padding: 0.1em; */
     width: 25em;
 }
 
@@ -141,7 +130,6 @@ header {
     position: sticky;
     margin-top: -2em;
     top: 0em;
-    /* left: 10em; */
     z-index: 50;
 }
 
@@ -265,7 +253,6 @@ header {
  .cityName {
     border-radius: 0.3em;
 }
-/* booking display-none section */
 .booking {
   text-align: center;
   position: relative;
@@ -273,30 +260,26 @@ header {
   font-size: 1.2em;
   padding: 1em 0;
   background-color: rgba(0, 0, 0, 0.333);
-  /* display: none; */
 }
 
 .bookingContainer button {
   padding: 1em;
   border: 1px solid white;
   background: rgba(0, 0, 0, 0.333);
-  /* background-color: #00aeff; */
   border-radius: 0.2em;
   font-weight: 600;
   color: #fff;
-  /* display: none; */
+  
 }
 
-.booking:hover {
+/* .booking:hover {
   display: none;
-    /* display: all; */
-    /* background-color: #00aeff */  
 }
 
 .bookingContainer button:hover{
   display: none;
   background-color: #00aeff
-}
+} */
 
 /* STATES STYLING */
 .statesContainer {
@@ -348,24 +331,26 @@ header {
 
 .getAppWrap h2 {
   font-size: 4em;
-  font-weight: 800;
+  font-weight: 600;
   color: #00aeff;
+  margin-bottom: 0.2em;
 }
 
 .getAppWrap h3 {
   font-size: 1.5em;
   font-weight: 600;
+  margin-bottom: 0.3em;
 }
 
 
-/* .getAppWrap {
-  margin-top: 2em;
-  /* display: flex;
-  flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-} */
+.getAppWrap {
+  margin-top: 10em;
+  margin-left: 5em;
+}
 
+.getAppWrap p {
+    margin-bottom: 2em; 
+}
 .featuredOrg {
     width: 10%;
 }
@@ -380,4 +365,60 @@ header {
 .addHotel {
   margin-top: 2em;
 }
+
+.hotDealsCircle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 1.5em;
+}
+
+.footer-HotDeals{
+    display: flex;
+    justify-content: center;
+    background-color: #084482;
+}
+
+.hotDeals {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.footer-emailbtn {
+    padding: 0.8em 3.5em;
+    border-radius: 0.2em;
+    margin-left: 5em;
+}
+.hotelDealsText h3 {
+    color: white;
+}
+
+.hotelDealsText p {
+    color: #00aeff;
+}
+
+.advert {
+    display: flex; 
+    align-content: center;
+    justify-content: space-between; 
+    margin: 0 15em 0 15em;
+
+}
+
+.advert li {
+    list-style: none;
+}
+
+.events {
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+}
+
+.events span {
+    padding-right: 6em;
+    color: grey;
+}
+
 
