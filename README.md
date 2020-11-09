@@ -8,7 +8,7 @@ using grid layout to clone a website
 
 ## Live Demo
 
-https://raw.githack.com/olufunke1011/learning-grid/main/index.html
+https://raw.githack.com/olufunke1011/Hotel.ng-Clone/main/index.html
 
 ## Dependencies
 
