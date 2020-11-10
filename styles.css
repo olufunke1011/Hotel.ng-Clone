@@ -28,12 +28,6 @@ header {
     background-color: #00aeff;
     display: flex;
     justify-content: space-around;
-    /* padding: 0 0.1em;  */
-}
-
-.menu {
-    /* padding: 0 10em; */
-    /* padding: 0.5em 1em; */
 }
 
 .fab {
@@ -54,7 +48,6 @@ header {
     background-color: #084482;
     position: relative;
     bottom: 0.8em;
-    /* padding: 0.5em 1em; */
 }
 
 .contact-img {
@@ -81,14 +74,13 @@ header {
 .menuItems {
     display: inline-block;
     margin-left: 2em;
-   
 }
 
 .whattsapp,
 .dropdown,
 .naira {
     border-right: 1px solid white;
-    padding: 0.2em 1em;
+    padding: 0.2em 0.5em;
 }
 
 .caret {
@@ -97,6 +89,7 @@ header {
 
 .inline {
     display: inline;
+    color: white;
 }
 
 .flag {
@@ -430,11 +423,13 @@ header {
 .advert li {
     list-style: none;
     color: #14acf2;
+    margin: 0 3em 0 0;
 }
 
 .events {
     text-align: center;
-    margin: 1em 8em 0.5em 10em;
+    margin: 1em 8em 1em 10em;
+    border-bottom: 1px solid grey;
 }
 
 .events span {
