@@ -78,6 +78,7 @@ header {
 .menuItems {
     display: inline-block;
     margin-left: 2em;
+    border-right: 1px solid white;
 }
 
 .inline {
@@ -95,7 +96,7 @@ header {
 }
 
 .main {
-    margin: 0 10em 0 10em;
+    margin: auto 10em auto 10em;
 }
 
 
@@ -130,7 +131,7 @@ header {
     position: sticky;
     margin-top: -2em;
     top: 0em;
-    z-index: 50;
+    z-index: 100;
 }
 
 .hotel-form {
@@ -403,22 +404,30 @@ header {
     display: flex; 
     align-content: center;
     justify-content: space-between; 
-    margin: 0 15em 0 15em;
+    margin: 0 5em 0 13em;
 
 }
 
 .advert li {
     list-style: none;
+    color: #14acf2;
+    /* margin: 0 1em 0 1em; */
 }
 
 .events {
     text-align: center;
-    margin: 1em 0 0.5em 0;
+    margin: 1em 8em 0.5em 10em;
 }
 
 .events span {
-    padding-right: 6em;
+    padding-right: 7em;
     color: grey;
 }
+.topCitiesList {
+    margin-left: 2em;
+}
 
+/* .topHotels {
+    padding-left: 50em;
+} */
 
