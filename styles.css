@@ -22,16 +22,18 @@ input {
 
 .logoSide {
     width: 5em;
-    padding-left: 0.05em;
+    align-self: center;
 }
 header {
-    background-color: pink;
+    background-color: #00aeff;
     display: flex;
+    justify-content: space-around;
+    /* padding: 0 0.1em;  */
 }
 
 .menu {
-    margin-left: 35em;
-   
+    /* padding: 0 10em; */
+    /* padding: 0.5em 1em; */
 }
 
 .fab {
@@ -52,6 +54,7 @@ header {
     background-color: #084482;
     position: relative;
     bottom: 0.8em;
+    /* padding: 0.5em 1em; */
 }
 
 .contact-img {
@@ -78,7 +81,14 @@ header {
 .menuItems {
     display: inline-block;
     margin-left: 2em;
+   
+}
+
+.whattsapp,
+.dropdown,
+.naira {
     border-right: 1px solid white;
+    padding: 0.5em 1em;
 }
 
 .inline {
@@ -411,7 +421,6 @@ header {
 .advert li {
     list-style: none;
     color: #14acf2;
-    /* margin: 0 1em 0 1em; */
 }
 
 .events {
@@ -427,7 +436,4 @@ header {
     margin-left: 2em;
 }
 
-/* .topHotels {
-    padding-left: 50em;
-} */
 
