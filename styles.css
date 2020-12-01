@@ -128,6 +128,7 @@ header {
 }
 
 .hotel-form-Container {
+    /* margin: auto 10em auto 10em; */
     background: white;
     border: 2px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.111);
@@ -152,6 +153,10 @@ header {
     padding: 0.9em;
     width: 35em;
 }
+
+/* .destination-Container {
+    margin: auto 10em auto 10em;
+} */
 
 .destination {
     text-align: center;
@@ -382,11 +387,12 @@ header {
 }
 
 .hotDealsCircle {
+    /* margin: auto 10em auto 10em; */
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #fff;
-    margin-top: 1.5em;
+    margin-top: 3.5em;
 }
 
 .footer-HotDeals{
@@ -396,16 +402,29 @@ header {
 }
 
 .hotDeals {
+    /* margin: auto 10em auto 10em; */
     display: flex;
     justify-content: center;
     padding: 1.5em;
 }
 
 .footer-emailbtn {
-    padding: 0.8em 3.5em;
+    padding: 0.8em 3.5em 0.8em 0.5em;
+    /* font-size: .8em; */
     border-radius: 0.2em;
     margin-left: 5em;
 }
+
+.unlockDeals {
+    position: relative;
+    left: -5em;
+    padding: .8em 5em;
+}
+
+.hotelDealsText {
+    padding: 2em 0 1em 0;
+}
+
 .hotelDealsText h3 {
     color: white;
 }
@@ -430,8 +449,10 @@ header {
 }
 
 .events {
+    margin: 2em 19em auto 13em;
     text-align: center;
-    margin: 1em 3em 1em 10em;
+    font-size: .8rem;
+    /* margin: 1em 3em 1em 9em; */
     border-bottom: 1px solid grey;
 }
 
@@ -442,6 +463,47 @@ header {
 .topCitiesList {
     margin-left: 2em;
 }
+
+.summary {
+    position: relative;
+    left: -14px;
+ } 
+
+.community {
+    position: relative;
+    left: -40px; 
+ }
+
+ .topDestination {
+    position: relative;
+    left: -115px;
+ }
+
+ .bestLocation {
+    position: relative;
+    left: -68px;
+ }
+
+ .topHotels {
+    position: relative;
+    left: -50px;
+ }
+
+ .footerLastLine {
+    border-bottom: 1px solid grey;
+    margin: auto 14em auto 10em; 
+    padding: 2em 5em 1em 1em; 
+ }
+
+ .copyRight {
+     display: flex;
+ }
+ .copy {
+     text-align: left;
+     margin: 2em 14em auto 12em; 
+     font-size: .8rem;
+     color: grey;
+ }
 
 
  
